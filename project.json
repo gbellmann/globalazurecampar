@@ -41,12 +41,5 @@
     "**.xproj",
     "**.user",
     "**.vspscc"
-  ],
-  "scripts": {
-    "postrestore": [
-      "npm install",
-      "bower install",
-      "gulp default"
-    ]    
-  }
+  ]
 }

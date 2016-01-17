@@ -1,6 +1,5 @@
 var gulp = require('gulp');  
 var mainBowerFiles = require('main-bower-files');
-var bower = require('gulp-bower');  
 var uglify = require('gulp-uglify');
 var mincss = require('gulp-cssmin');
 var concat = require('gulp-concat');
@@ -8,26 +7,15 @@ var ignore = require('gulp-ignore');
 var rimraf = require('rimraf');
 
 var project = require('./project.json');  
-var lib = project.webroot + '/dist'; 
-var content = project.webroot + '/Content';
+var lib = project.webroot + '/lib'; 
+var content = project.webroot + '/content';
 
 /* LIMPIO LA CARPETA DE DESTINO */
 gulp.task('clean',function(done){
 	rimraf(lib, done);
 });
-
-/* ME ASEGURO DE QUE TODOS LOS PAQUETES DE bower.json ESTAN INSTALADOS */
-gulp.task('bower:install', ['clean'], function () {  
-    return bower();
-});
-
-gulp.task('showfiles', ['bower:install'], function () {
-    console.log(mainBowerFiles());
-    return;
-});
-
 /* MINIFICO TODOS LOS PAQUETES */
-gulp.task('minifyJs', ['bower:install'], function () {  
+gulp.task('minifyJs', ['clean'], function () {  
     return gulp.src(mainBowerFiles())
         .pipe(ignore.exclude([ "**/*.css" ]))
       .pipe(uglify())
