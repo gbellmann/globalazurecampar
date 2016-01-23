@@ -2,11 +2,12 @@
     background: no-repeat url(../images/background.jpg);
     background-position: center;
     width:100%;
-    height:100%;
+    height:calc(100% - 30px);
     margin-top:0;
     position:relative;
     color:white;
-    margin-top:-25px
+    margin-top:-25px;
+    z-index:21;
 }
 
 .down{
@@ -21,4 +22,31 @@
     position:fixed;
     right:50px;
     bottom:30px;
+    z-index:20;
+}
+
+.section{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.section iframe{
+    width:90%;
+    margin-left:5%;
+    height:400px;
+}
+
+.big{
+    font-size:48px;
+    line-height:48px;
+    height:48px;
+}
+
+.big .material-icons{
+    font-size:36px;
+    line-height:36px;
+}
+
+.section:nth-child(even) {
+    background-color:rgba(96, 125, 139, 0.2);
 }
