@@ -57,6 +57,9 @@
       </div>
 
       <div class="mdl-layout__content">
+          <div class="mdl-typography--text-center section">
+              <div id="DateCountdown" data-date="2016-04-16 09:00:00" style="width:80%;margin:0 auto;"></div>
+          </div>
         <a name="top"></a>
         <div class="mdl-typography--text-center mdl-typography--text-uppercase hero">
           <h1>Global Azure Bootcamp 2016</h1>
@@ -117,5 +120,37 @@
       </div>
 
         <script src="lib/js/bundle/front.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#DateCountdown").TimeCircles({
+                        "animation": "smooth",
+                        "bg_width": 0.5,
+                        "fg_width": 0.05333333333333334,
+                        "circle_bg_color": "#60686F",
+                        "time": {
+                            "Days": {
+                                "text": "Días",
+                                "color": "#FFCC66",
+                                "show": true
+                            },
+                            "Hours": {
+                                "text": "Horas",
+                                "color": "#99CCFF",
+                                "show": true
+                            },
+                            "Minutes": {
+                                "text": "Minutos",
+                                "color": "#BBFFBB",
+                                "show": true
+                            },
+                            "Seconds": {
+                                "text": "Segundos",
+                                "color": "#FF9999",
+                                "show": true
+                            }
+                        }
+                    });
+                });
+            </script>    
     </body>
 </html>
