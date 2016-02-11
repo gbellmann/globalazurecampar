@@ -6,9 +6,8 @@ var concat = require('gulp-concat');
 var ignore = require('gulp-ignore');
 var rimraf = require('rimraf');
 
-var project = require('./project.json');  
-var lib = project.webroot + '/lib'; 
-var content = project.webroot + '/content';
+var lib = 'lib'; 
+var content = 'content';
 
 /* LIMPIO LA CARPETA DE DESTINO */
 gulp.task('clean',function(done){
@@ -31,7 +30,7 @@ gulp.task('minifyJsContent', ['minifyJs'], function () {
 
 /* MINIFICO CSS PARTICULARES CREADOS POR MI */
 gulp.task('minifyCssContent', ['minifyJsContent'], function () {  
-    return gulp.src(content+'/css/site.css')
+    return gulp.src([content+'/css/site.css',content+'/css/TimeCircles.css'])
         .pipe(concat('front.css'))
       .pipe(mincss())
       .pipe(gulp.dest(lib+'/css/bundle/'));
@@ -39,7 +38,7 @@ gulp.task('minifyCssContent', ['minifyJsContent'], function () {
 
 /* BUNDLE PARA FRONT */
 gulp.task('bundleFront', ['minifyCssContent'], function () {  
-    return gulp.src([lib+'/js/layzr.js',lib+'/js/material.min.js',lib+'/js/layout.js'])
+    return gulp.src([lib+'/js/layzr.js',lib+'/js/material.min.js',lib+'/js/layout.js',lib+'/js/TimeCircles.js'])
       .pipe(concat('front.js'))
       .pipe(gulp.dest(lib+'/js/bundle/'));
 });
