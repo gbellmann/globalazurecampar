@@ -30,7 +30,7 @@ gulp.task('minifyJsContent', ['minifyJs'], function () {
 
 /* MINIFICO CSS PARTICULARES CREADOS POR MI */
 gulp.task('minifyCssContent', ['minifyJsContent'], function () {  
-    return gulp.src([content+'/css/site.css',content+'/css/TimeCircles.css'])
+    return gulp.src(content+'/css/*.css')
         .pipe(concat('front.css'))
       .pipe(mincss())
       .pipe(gulp.dest(lib+'/css/bundle/'));
@@ -38,7 +38,7 @@ gulp.task('minifyCssContent', ['minifyJsContent'], function () {
 
 /* BUNDLE PARA FRONT */
 gulp.task('bundleFront', ['minifyCssContent'], function () {  
-    return gulp.src([lib+'/js/layzr.js',lib+'/js/material.min.js',lib+'/js/layout.js',lib+'/js/TimeCircles.js'])
+    return gulp.src([lib+'/js/layzr.js',lib+'/js/material.min.js',lib+'/js/jquery.js',lib+'/js/TimeCircles.js',lib+'/js/layout.js'])
       .pipe(concat('front.js'))
       .pipe(gulp.dest(lib+'/js/bundle/'));
 });
