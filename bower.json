@@ -2,6 +2,7 @@
   "name": "globalazurecampar",
   "private": true,
   "dependencies": {
+      "jquery": "*",
     "material-design-lite": "1.0.6",
     "layzr.js":"^1.4.1"
   }
