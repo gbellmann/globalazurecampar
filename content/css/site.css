@@ -162,6 +162,10 @@
   }
 }
 
+.weblink{
+    display:block;
+}
+
 @-webkit-keyframes cd-bounce-1 {
   0% {
     opacity: 0;
