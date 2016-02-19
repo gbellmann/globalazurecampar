@@ -1,7 +1,6 @@
 (function(){
     componentHandler.registerUpgradedCallback("MaterialLayout",function(){
-		var layzr = new Layzr();
-        $("#DateCountdown").TimeCircles({
+		$("#DateCountdown").TimeCircles({
                         "animation": "smooth",
                         "bg_width": 0.5,
                         "fg_width": 0.05333333333333334,

@@ -9,7 +9,15 @@
     margin-top:-25px;
     z-index:21;
 }
-
+@media screen and (min-width: 1024px) {
+    .hero {
+         background-size:100%;
+    }
+    p{
+        font-size:20px;
+        padding:20px;
+    }
+}
 .down{
     bottom:30px;
     left:50%;
