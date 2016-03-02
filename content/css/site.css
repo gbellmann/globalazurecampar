@@ -77,3 +77,6 @@
 }
 .timeline-item .material-icons{color:white;font-size: 48px;}
 .orador{font-size:20px;}
+img.speakerImg {width:200px; height:200px;}
+.speakerName {font-size:20px; margin-top:10px; margin-bottom:0;}
+.speakerBio {font-size:14px; padding:0 10px 20px 10px; margin-bottom:0;}
