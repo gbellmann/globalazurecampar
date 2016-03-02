@@ -29,9 +29,9 @@
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#ubicacion">UBICACIÓN</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#inscripcion">INSCRIPCIÓN</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#faq">FAQ</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#soon">AGENDA</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#soon">SPEAKERS</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#soon">SPONSORS</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#agenda">AGENDA</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#speakers">SPEAKERS</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#sponsors">SPONSORS</a>
             </nav>
           </div>
           
@@ -47,9 +47,9 @@
             <a class="mdl-navigation__link" href="#ubicacion">UBICACIÓN</a>
             <a class="mdl-navigation__link" href="#inscripcion">INSCRIPCIÓN</a>
             <a class="mdl-navigation__link" href="#faq">FAQ</a>
-            <a class="mdl-navigation__link" href="#soon">AGENDA</a>
-            <a class="mdl-navigation__link" href="#soon">SPEAKERS</a>
-            <a class="mdl-navigation__link" href="#soon">SPONSORS</a>
+            <a class="mdl-navigation__link" href="#agenda">AGENDA</a>
+            <a class="mdl-navigation__link" href="#speakers">SPEAKERS</a>
+            <a class="mdl-navigation__link" href="#sponsors">SPONSORS</a>
         </nav>
       </div>
 
@@ -74,8 +74,7 @@
           <a id="ubicacion"></a>
           <div class="mdl-typography--display-1-color-contrast">¿Dónde se realiza?</div>
             <h5>Microsoft de Argentina. Bouchard 710, Ciudad de Buenos Aires.</h5>
-          <!--<iframe src="https://www.google.com/maps/embed/v1/place?q=Microsoft+De+Argentina+S.A.&amp;key=AIzaSyCuHF00XvhAa8Q2XG3V8yX2k7J6-BMoAgE" frameborder="0" style="border:0;" data-sh-tag-identifier="googlemaps"></iframe>-->
-          <img class="map" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.599068,-58.369572&size=800x500&zoom=15&markers=color:blue%7Clabel:Bouchard%7C-34.599068,-58.369572">
+          <a href="https://www.google.com.ar/maps/place/Bouchard+710,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.5990676,-58.3717605,17z/data=!3m1!4b1!4m2!3m1!1s0x95a3353362b5f933:0x4e08f33080174603" target="_blank" title="Ver en mapa"><img class="map" src="https://maps.googleapis.com/maps/api/staticmap?center=-34.599068,-58.369572&size=800x500&zoom=15&markers=color:blue%7Clabel:Bouchard%7C-34.599068,-58.369572"></a>
         </div>
         <div class="mdl-typography--text-center section">
           <a id="inscripcion"></a>
@@ -98,37 +97,142 @@
 
         </div>
         <div class="mdl-typography--text-center section">
-          <a id="soon"></a>
-          <div class="mdl-typography--display-1-color-contrast">Coming soon!</div>
-          <!--<section id="cd-timeline" class="cd-container">
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="img/cd-icon-picture.svg" alt="Picture">
-			</div>
-
-			<div class="cd-timeline-content">
-				<h2>Title of section 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 14</span>
-			</div> 
-		</div>
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> 
-
-			<div class="cd-timeline-content">
-				<h2>Title of section 2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> 
-		</div> 
-		
-	</section> -->
+          <a id="agenda"></a>
+          <div class="mdl-typography--display-1-color-contrast">Agenda</div>
+          <!-- Timeline -->
+            <div id="timeline">
+                <!-- Timeline Item, copy from here to create various boxes -->
+                <div class="timeline-item">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <i class="material-icons md-48">face</i>
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content">
+                        <h2><small><strong>09:00 - 10:00</strong></small>Intro + Labs</h2>
+                        <p>
+                           Introducción a Global Azure Bootcamp y hands-on-lab inicial
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content right">
+                        <h2><small><strong>10:00 - 11:00</strong></small>Introducción Elastic Database Pool</h2>
+                        <p>
+                            Escale la potencia de SQL Azure con Elactic Database Pool
+                        </p>
+                        <u>Oradores</u>: <strong>Maximiliano Accotto y Fabio Maulo</span></strong>
+                    </div>
+                </div>
+                <div class="timeline-item break">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content">
+                        <h2><small><strong>12:00 - 13:00</strong></small>Almuerzo</h2>                       
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content right">
+                        <h2><small><strong>13:00 - 13:50</strong></small>Introducción a Docker</h2>
+                        <p>
+                            En esta charla vamos a hacer una pequeña introducción al mundo de los contenedores con Docker y a las opciones tenemos dentro de Azure para utilizarlos.
+                        </p>
+                        <u>Orador</u>: <strong>Nicolás Bello Camilletti</strong>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content">
+                        <h2><small><strong>14:00 - 14:50</strong></small>Controlando Robots y dispositivos con Azure IoT Hub</h2>
+                        <p>
+                            No solo las computadoras, los teléfonos, y las tabletas se conectan a Internet. El numero de dispositivos que se conecta a Internet (desde autos hasta cafeteras) es cada vez mas grande. En esta sesión veremos las conectar, monitorear, y controlas dispositivos IoT con Azure IoT Hub (y de paso divertirnos jugando lucha de robots).
+                        </p>
+                        <u>Orador</u>: <strong>Rodolfo Finochietti</strong>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content right">
+                        <h2><small><strong>15:00 - 15:50</strong></small>Un paseo por Azure Search</h2>
+                        <p>
+                            Una guía interactiva a través de todas las características que conforman este ofrecimiento de "Búsqueda como Servicio en Azure.
+                        </p>
+                        <u>Orador</u>: <strong>Matías Quaranta</strong>
+                    </div>
+                </div>
+                <div class="timeline-item break">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content">
+                        <h2><small><strong>15:50 - 16:10</strong></small>Break</h2>                       
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content right">
+                        <h2><small><strong>16:10 - 17:00</strong></small>Big Data</h2>
+                        <p>
+                            TBD
+                        </p>
+                        <u>Orador</u>: <strong>Guillermo Bellmann</strong>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content">
+                        <h2><small><strong>17:10 - 18:00</strong></small>Azure Reload</h2>
+                        <p>
+                            Azure Resource Manager es el nuevo modelo para configurar y administrar la plataforma. Este modelo contiene importante diferencias sobre el método clásico fortalecidos por la implementación vía JSON.
+                        </p>
+                        <u>Orador</u>: <strong>Martín Berra</strong>
+                    </div>
+                </div>
+                <div class="timeline-item break">
+                    <!--Icon inside the circle-->
+                    <div class="timeline-icon">
+                        <img src="assets/images/star.svg" alt="">
+                    </div>
+                    <!-- Content from timeline box and position (right or left)-->
+                    <div class="timeline-content right">
+                        <h2><small><strong>18:00-18:30</strong></small>Cierre</h2>                       
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        
         <div class="mdl-typography--text-center section">
           <a id="speakers"></a>
           <div class="mdl-typography--display-1-color-contrast"></div>
