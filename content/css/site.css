@@ -9,6 +9,9 @@
     margin-top:-25px;
     z-index:21;
 }
+.hero2016{
+    background: no-repeat url(../../../content/images/background.jpg);
+}
 .map{
     width:100%;
 }
