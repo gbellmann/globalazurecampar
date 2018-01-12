@@ -1,3 +1,3 @@
-# Global Azure Bootcamp 2016 - Buenos Aires
+# Global Azure Bootcamp - Buenos Aires
 
 [http://buenosaires.azurebootcamp.net/](http://buenosaires.azurebootcamp.net/)
