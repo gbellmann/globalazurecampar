@@ -1,5 +1,4 @@
 .hero{
-    background: no-repeat url(../../../content/images/Puente_de_la_mujer_Buenos_Aires_Argentina.jpg);
     background-position: center;
     width:100%;
     height:calc(100% - 30px);
@@ -8,6 +7,12 @@
     color:white;
     margin-top:-25px;
     z-index:21;
+}
+.hero2018{
+    background: no-repeat url(../../../content/images/CongresoArgentina.jpg);
+}
+.hero2017{
+    background: no-repeat url(../../../content/images/Puente_de_la_mujer_Buenos_Aires_Argentina.jpg);
 }
 .hero2016{
     background: no-repeat url(../../../content/images/background.jpg);
