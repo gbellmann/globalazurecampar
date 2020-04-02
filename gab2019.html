@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Azure Bootcamp 2019 - Buenos Aires</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.blue-indigo.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="lib/css/bundle/front.css">
+    <meta property="og:title" content="Global Azure Bootcamp Argentina 2019" />
+    <meta property="og:description" content="Evento global de Cloud Computing a realizarse el 271 de Abril de 2019" />
+    <meta property="og:image" content="http://globalazurecampar.azurewebsites.net/content/images/gabba19.png" />
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <div class="mdl-layout__header mdl-layout__header--waterfall">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">
+                    <img src="content/images/logosmall-2019.png" height="61px">
+                </span>
+                <div class="mdl-layout-spacer"></div>
+
+                <!-- Navigation -->
+                <div class="mdl-layout--large-screen-only">
+                    <nav class="mdl-navigation">
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#acerca">ACERCA DE</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#ubicacion">UBICACIÓN</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#inscripcion">INSCRIPCIÓN</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#faq">FAQ</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#agenda">AGENDA</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#speakers">SPEAKERS</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#sponsors">SPONSORS</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="gab2018.html"><strong>v2018</strong></a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="gab2017.html"><strong>v2017</strong></a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="gab2016.html"><strong>v2016</strong></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">
+                <img src="content/images/logosmall-2019.png" height="61px">
+            </span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#acerca">ACERCA DE</a>
+                <a class="mdl-navigation__link" href="#ubicacion">UBICACIÓN</a>
+                <a class="mdl-navigation__link" href="#inscripcion">INSCRIPCIÓN</a>
+                <a class="mdl-navigation__link" href="#faq">FAQ</a>
+                <a class="mdl-navigation__link" href="#agenda">AGENDA</a>
+                <a class="mdl-navigation__link" href="#speakers">SPEAKERS</a>
+                <a class="mdl-navigation__link" href="#sponsors">SPONSORS</a>
+                <a class="mdl-navigation__link" href="gab2018.html"><strong>v2018</strong></a>
+                <a class="mdl-navigation__link" href="gab2017.html"><strong>v2017</strong></a>
+                <a class="mdl-navigation__link" href="gab2016.html"><strong>v2016</strong></a>
+            </nav>
+        </div>
+
+        <div class="mdl-layout__content">
+            <a name="top"></a>
+            <div class="mdl-typography--text-center mdl-typography--text-uppercase hero hero2019">
+                <h1>Global Azure Bootcamp 2019</h1>
+                <h2>27 de Abril - 8:30hs</h2>
+                <h3>Argentina</h3>
+                <div id="DateCountdown" data-date="2019-04-27 08:30:00" style="width:80%;margin:0 auto;background:rgba(0, 0, 0, 0.35);" class="mdl-layout--large-screen-only"></div>
+                <a href="#acerca" class="down">
+                    <button class="mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                        <i class="material-icons">expand_more</i>
+                    </button>
+                </a>
+            </div>
+            <div class="mdl-typography--text-center section">
+                <a id="acerca"></a>
+                <div class="mdl-typography--display-1-color-contrast">¿Qué es el Global Azure Bootcamp?</div>
+                <p>En Abril de 2013 se organizó el primer <strong>Global Azure Bootcamp</strong> en más de 134 localizaciones <strong>alrededor del mundo</strong>.
+                    En Argentina, el evento se realiza desde el año 2014 y reune cada año a más de 80 profesionales de IT junto con los máximos
+                    expertos del país sobre la nube de Microsoft para compartir experiencias, conocimiento, hands-on-labs y
+                    un día completo conociendo un poco más sobre Cloud Computing.</p>
+            </div>
+            <div class="mdl-typography--text-center section">
+                <a id="ubicacion"></a>
+                <div class="mdl-typography--display-1-color-contrast">¿Dónde se realiza?</div>
+                <h5>Microsoft de Argentina. Bouchard 710, Ciudad de Buenos Aires.</h5>
+                <img src="content/images/gab_map.png" style="width:100%; max-width:500px;">
+            </div>
+            <div class="mdl-typography--text-center section">
+                <a id="inscripcion"></a>
+                <div class="mdl-typography--display-1-color-contrast">Inscripción</div>
+                <div id="eventbrite-widget-container-57206062874" style="height:425px;"></div>
+
+                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                <script type="text/javascript">
+                    var exampleCallback = function() {
+                        console.log('Order complete!');
+                    };
+
+                    window.EBWidgets.createWidget({
+                        // Required
+                        widgetType: 'checkout',
+                        eventId: '57206062874',
+                        iframeContainerId: 'eventbrite-widget-container-57206062874',
+
+                        // Optional
+                        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                    });
+                </script>
+            </div>
+            <div class="mdl-typography--text-center section">
+                <a id="faq"></a>
+                <div class="mdl-typography--display-1-color-contrast">Preguntas frecuentes </div>
+                <h4>¿Necesito llevar algo preparado?</h4>
+
+                <p>Aprovecharás mejor el evento si te traes tu propia notebook preparada con <a href="https://www.visualstudio.com/downloads/" target="_blank">Visual Studio</a> 2017 o superior con las herramientas de Cloud instaladas, <a href="https://docs.microsoft.com/es-es/powershell/azure/overview?view=azps-1.6.0" target="_blank">Azure PowerShell</a> y la <a href="https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest" target="_blank">Azure CLI</a>. Es mejor
+                    que lleves instalado dicho software para que no perder tiempo durante el evento.</p>
+
+                <p>También necesitarás una subscripción de Microsoft Azure. Hay muchas opciones incluyendo una trial de <a href="http://azure.microsoft.com/es-es/pricing/free-trial/" target="_blank">30 días totalmente gratuita</a> o los Azure passes que entregaremos durante el evento (de 80 dólares para gastar en un mes).</p>
+
+                <h4>¿El evento es para principiantes?</h4>
+
+                <p>Sí y no. Nos centraremos en una serie de sesiones y hands on labs que apuntan a un nivel intermedio, pero también profundizaremos
+                    en escenarios reales, zonas de preguntas y respuestas, etc.</p>
+
+            </div>
+
+            <div class="mdl-typography--text-center section">
+                <a id="agenda"></a>
+                <div class="mdl-typography--display-1-color-contrast">Agenda</div>
+
+                <h3>Charlas</h3>
+                <div class="timeline">
+                    <div class="timeline-item common">
+                        <div class="timeline-icon">
+                            <i class="material-icons md-48">face</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>09:15 - 10:15</strong></small>Bienvenida + Science lab</h2>
+                            <p>
+                                Equipo organizador.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item common">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>10:15 - 11:00</strong></small>Viaje al centro de cómputo en Azure</h2>
+                            <p></p>
+                            <span class="orador"><u>Oradores</u>: <strong>Pablo Di Loreto y Guillermo Bellmann</strong></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item break common">
+                        <div class="timeline-icon">
+                            <i class="material-icons">free_breakfast</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>11:00 - 11:30</strong></small>Break</h2>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>11:30 - 12:15</strong></small>DevSecOps con Azure DevOps</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Luciano Moreira da Cruz</strong></span>
+                        </div>
+                        <div class="timeline-content itpro right">
+                            <h2><small><strong>11:30 - 12:15</strong></small>Web APIs con .NET Core, Docker y Azure</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Mariano Sanchez</strong></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>12:15 - 13:00</strong></small>Bots + Azure Functions</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Enzo Cano</strong></span>
+                        </div>
+                        <div class="timeline-content itpro right">
+                            <h2><small><strong>12:15 - 13:00</strong></small>SQL Server in Docker Containers</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Javier Villegas</strong></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item break common">
+                        <div class="timeline-icon">
+                            <i class="material-icons">restaurant_menu</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>13:00 - 14:00</strong></small>Almuerzo</h2>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>14:00 - 14:45</strong></small>Inicia tu startup en Azure con menos de 10 dólares por mes!</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Fernando Sonego</strong></span>
+                        </div>
+                        <div class="timeline-content itpro right">
+                            <h2><small><strong>14:00 - 14:45</strong></small>Azure Automation State Configuration - DSC</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Walter Grasselli</strong></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>14:45 - 15:30</strong></small>Azure Logic Apps - Why being lazy is being smart</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Nano Vazquez</strong></span>
+                        </div>
+                        <div class="timeline-content itpro right">
+                            <h2><small><strong>14:45 - 15:30</strong></small>Datawarehouse moderno en Azure</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Maximiliano Accotto</strong></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item break common">
+                        <div class="timeline-icon">
+                            <i class="material-icons">free_breakfast</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>15:30 - 16:00</strong></small>Break</h2>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>16:00 - 16:45</strong></small>Serverless Containers: Azure Container Instances</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Esteban Yañez</strong> 
+                                + lightning demo por <strong>Guillermo Bellmann</strong> y <strong>Mauro Gandelli</strong></span>
+                        </div>
+                        <div class="timeline-content itpro right">
+                            <h2><small><strong>16:00 - 16:45</strong></small>Blockchain in Azure: what to do?</h2>
+                            <p></p>
+                            <span class="orador"><u>Orador</u>: <strong>Sebastian Leonardo Pérez</strong></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item common end">
+                        <div class="timeline-icon">
+                            <i class="material-icons">stop</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>16:45 - 17:15</strong></small>Cierre y sorteos</h2>
+                            <p>
+                                Equipo organizador
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Workshops</h3>
+                <div class="timeline workshops">
+                    <div class="timeline-item workshop common">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>11:30 - 13:00</strong></small>Power BI dashboard in an hour</h2>
+                            <p style="text-align:left;">
+                                Requisitos:
+                                <ul class="mdl-typography--text-left">
+                                    <li>Tener instalado PowerBiDektop (ultima versión) desde <a href="www.powerbi.com" target="_blank">www.powerbi.com</a></li>
+                                    <li>Lectura básica de Inglés para poder seguir el workshop</li>
+                                </ul>
+                            </p>
+                            <span class="orador"><u>Orador</u>: <strong>Maximiliano Accotto</strong></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item break common">
+                        <div class="timeline-icon">
+                            <i class="material-icons">restaurant_menu</i>
+                        </div>
+                        <div class="timeline-content right">
+                            <h2><small><strong>13:00 - 14:00</strong></small>Almuerzo</h2>
+                        </div>
+                    </div>
+                    <div class="timeline-item workshop common end">
+                        <div class="timeline-icon">
+                            <i class="material-icons">cloud_circle</i>
+                        </div>
+                        <div class="timeline-content">
+                            <h2><small><strong>14:00 - 15:30</strong></small>Object detection & image classification - Introducción a los servicios cognitivos</h2>
+                            <p style="text-align:left;">
+                                Requisitos:
+                                <ul class="mdl-typography--text-left">
+                                    <li>Cuenta de Azure</li>
+                                </ul>
+                            </p>
+                            <span class="orador"><u>Orador</u>: <strong>Diego Aguirre</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mdl-typography--text-center section">
+                <a id="speakers"></a>
+                <div class="mdl-typography--display-1-color-contrast">Speakers</div>
+
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--10-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Javier Villegas</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/javier-villegas-19.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        DBA Manager, Mediterranean Shipping Company. Microsoft MVP Data Platform.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/javier_vill"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/javiervillegas/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Guillermo Bellmann</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/guillermo-bellmann.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Software architect en Lagash. Microsoft Azure MVP. MCP.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/gjbellmann"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/gbellmann/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Pablo Di Loreto</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/pablo-diloreto-19.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Service Delivery Manager en Algeiba S.A., Microsoft Azure MVP.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/PabloDiLoreto"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/pablodiloreto/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Maximiliano Accotto</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/maximiliano-accotto-19.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Microsoft MVP, arquitecto, consultor y DBA en SQL Server at TriggerDB.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/maxiaccotto"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://ar.linkedin.com/in/maxiaccotto"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Sebastián Pérez</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/sebastian-perez-19.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                            Tech Evangelist en IOV Labs. Microsoft Azure MVP.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/garudaslap"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/sebasti%C3%A1n-leonardo-p%C3%A9rez-6881659/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Diego Aguirre</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/diego-aguirre.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Desarrollador de Realidad Virtual y AI en Four Players
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/Geekydiego"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://linkedin.com/un/SrDiegoAguirre"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Fernando Sonego</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/fernando-sonego.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Software Architect, Algeiba IT
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/FernandoSonego"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/fernando-sonego-a7378231/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Esteban Yañez</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/esteban-yanez.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Lead Software Engineer - Southworks
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/Teban3010"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/eyanez89/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Enzo Cano</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/enzo-cano-19.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Lead Software Engineer - Southworks
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/EnzoJFCano"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/enzojfcano/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Walter Grasselli</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/walter-grasselli.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Azure Premier Field Engineer at Microsoft
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://www.linkedin.com/in/walter-grasselli-3b0005115/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Mariano Sanchez</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/mariano-sanchez.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Software Engineer
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/marianosz"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/marianos/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Mariano Vazquez</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/nano-vazquez.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Tech Lead at MuleSoft
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="http://twitter.com/nanovazquez87"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/mariano-daniel-vazquez-b874932b"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Luciano Moreira da Cruz</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/luciano-moreira-da-cruz.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        DevSecOps, Microsoft Azure MVP, Consultor, auditor Líder ISO 27000, 9001, CSA STAR
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/Luciano_m_cruz"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/lucianomoreiradacruz/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Mauro Gandelli</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/mauro-gandelli.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Architect at Lagash
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/maurogandelli"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/mgandelli/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                </div>
+            </div>
+
+            <div class="mdl-typography--text-center section">
+                <a id="sponsors"></a>
+                <div class="mdl-typography--display-1-color-contrast">Sponsors</div>
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <a href="https://www.microsoft.com/es-ar/" target="_blank" class="weblink"><img src="content/images/microsoft.png" height="50px" /></a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <a href="https://www.lagash.com/" target="_blank" class="weblink"><img src="content/images/lagash.png" height="60px" style="margin-top:-5px;" /></a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <a href="http://www.es.algeiba.com/" target="_blank" class="weblink"><img src="content/images/algeiba-new.png" style="height:40px; padding-top:10px;" /></a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <a href="https://www.rsk.co/" target="_blank" class="weblink"><img src="content/images/rsk_horizontal.png" height="70px" style="margin-top:-10px;" /></a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <a href="https://www.southworks.com/" target="_blank" class="weblink"><img src="content/images/southworks-logo-positive.png" height="40px" style="padding-top:10px;" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdl-typography--text-center section">
+                <a id="organizers"></a>
+                <div class="mdl-typography--display-1-color-contrast">Organizadores locales</div>
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="mdl-cell mdl-cell--10-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--3-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card small-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Guillermo Bellmann</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/guillermo-bellmann.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Software architect en Lagash. Microsoft Azure MVP. MCP.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/gjbellmann"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/gbellmann/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--3-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card small-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Pablo Di Loreto</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/pablo-diloreto-19.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Architecture &amp; Development Manager en Algeiba S.A. Microsoft Azure MVP.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/PabloDiLoreto"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/pablodiloreto/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--3-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card small-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Sebastián Perez</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/sebastian-perez-19.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Tech Evangelist en IOV Labs. Microsoft Azure MVP.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/sebaleoperez"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/sebasti%C3%A1n-leonardo-p%C3%A9rez-6881659/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mdl-cell mdl-cell--3-col mdl-cell--6-col-tablet">
+                                <div class="mdl-card small-card mdl-shadow--4dp">
+                                    <div class="mdl-card__title">
+                                        <h2 class="mdl-card__title-text">Nicolás Bello Camiletti</h2>
+                                    </div>
+                                    <div class="mdl-card__media">
+                                        <img src="content/images/speakers/nicolas-bello-camiletti.jpg" border="0" alt="" style="width:100%; height:auto;">
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        Principal Software Engineer / Architect en Southworks. Microsoft MVP. Google Developer Expert.
+                                    </div>
+                                    <div class="mdl-card__actions">
+                                        <a target="_blank" href="https://twitter.com/nbellocam"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png" /></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/nbellocamilletti/"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="callto">
+            <a href="#inscripcion" class="mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                <i class="material-icons">create</i>
+            </a>
+        </div>
+    </div>
+
+    <script src="lib/js/bundle/front.js"></script>
+</body>
+
+</html>
